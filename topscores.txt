@@ -1,0 +1,4 @@
+Top scores: 
+fer: 22
+0: 24
+null: 85
