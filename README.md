@@ -4,10 +4,6 @@
 
 Uma recriação do clássico jogo Donkey Kong implementada em Java utilizando princípios de Programação Orientada a Objetos.
 
-![Screenshot do jogo](screenshots/gameplay.png)
-
-![Screenshot do jogo](screenshots/gameover.png)
-
 
 ## 📋 Descrição
 
