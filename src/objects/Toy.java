@@ -21,7 +21,6 @@ public class Toy extends Objects implements Heroi, Health,Damage {
 	private int vidaToy;
 	private Point2D position;
 
-	private boolean hasMeat = false;
 	private boolean hasShield = false;
 	private boolean hasSword = false;
 
@@ -143,10 +142,6 @@ public class Toy extends Objects implements Heroi, Health,Damage {
 	public void obterEspada() {
 		hasSword = true;
 		atualizarStatus();
-	}
-
-	public void comeuBife() {
-		this.hasMeat = true;
 	}
 
 	@Override

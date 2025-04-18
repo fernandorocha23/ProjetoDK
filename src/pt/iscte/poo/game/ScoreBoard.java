@@ -62,7 +62,7 @@ public class ScoreBoard {
         int lugar = 0;
         for (Score s : scores) {
             lugar++;
-            ImageGUI.getInstance().showMessage("Parabéns "+ s.getNome() + "!",  lugar + "º lugar - Jogo concluído em " + s.getTicksFinais() + " ticks.");
+            //ImageGUI.getInstance().showMessage("Parabéns "+ s.getNome() + "!",  lugar + "º lugar - Jogo concluído em " + s.getTicksFinais() + " ticks.");
             System.out.println(lugar + "º " + s.getNome() + " - " + s.getTicksFinais() + " ticks");
 
         }

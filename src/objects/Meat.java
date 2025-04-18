@@ -48,7 +48,6 @@ public class Meat extends Objects implements Consumivel_Espada_Bife_Escudo, Temp
 
     @Override
     public void consumir(Toy toy) {
-        toy.comeuBife();
 
         if (!estaPodre()) {
             toy.aumentarVida(20);
