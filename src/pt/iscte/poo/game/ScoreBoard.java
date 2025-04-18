@@ -51,7 +51,7 @@ public class ScoreBoard {
         while (scores.size() > 10)
             scores.removeLast();
 
-        try (PrintWriter writer = new PrintWriter(new File("topscores.txt"))){
+        try (PrintWriter writer = new PrintWriter(new File(nome))){
             writer.println("Top scores: ");
             for (Score score : scores)
                 writer.println(score.getNome() + ": " + score.getTicksFinais());

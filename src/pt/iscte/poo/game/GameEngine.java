@@ -78,7 +78,7 @@ public class GameEngine implements Observer {
 				String nomeJogador = gui.askUser("Como é que te chamas?");
 
 				scoreBoard.adicionarScore(nomeJogador, ticksFinais);
-				scoreBoard.escreverTopScores(nomeJogador, ticksFinais);
+				scoreBoard.escreverTopScores("topscores.txt", ticksFinais);
 
 				remocao.add(kong);
 

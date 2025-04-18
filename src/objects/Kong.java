@@ -40,10 +40,10 @@ public class Kong extends Objects implements Viloes, Damage, Obstacles {
     @Override
     public void move() {
         if(vidaKong > 0) {
-            if (timeDelay < INTERVALO) {
-                timeDelay++;
-                return;
-            }
+//            if (timeDelay < INTERVALO) {
+//                timeDelay++;
+//                return;
+//            }
             timeDelay = 0;
             Direction direcao = (Math.random() <= 0.5) ? Direction.LEFT : Direction.RIGHT;
             Point2D novaPosicao = position.plus(direcao.asVector());
