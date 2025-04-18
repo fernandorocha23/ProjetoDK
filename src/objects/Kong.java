@@ -18,8 +18,8 @@ public class Kong extends Objects implements Viloes, Damage, Obstacles {
     private Point2D position;
 
     private static final int ROOM_LEN = 9;
-    private int timeDelay = 0;
-    private static final int INTERVALO = Integer.parseInt(ImageGUI.getInstance().askUser(" Escolha o Nível de Dificuldade (Fácil-2, Médio-1, Díficil-0)"));
+//    private int timeDelay = 0;
+//    private static final int INTERVALO = Integer.parseInt(ImageGUI.getInstance().askUser(" Escolha o Nível de Dificuldade (Fácil-2, Médio-1, Díficil-0)"));
 
     public List<Banana> bananas = new ArrayList<>();
 
