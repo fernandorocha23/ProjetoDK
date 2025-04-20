@@ -9,7 +9,7 @@ Uma recriação do clássico jogo Donkey Kong implementada em Java utilizando pr
 
 ProjetoDK é uma implementação do clássico arcade Donkey Kong, desenvolvida como projeto educacional para aplicar conceitos de Programação Orientada a Objetos em Java. O jogo apresenta o personagem principal tentando resgatar a princesa enquanto desvia de bananas lançadas pelo Kong.
 
-![Screenshot do Jogo](screenshot.png)
+![Screenshot do Jogo](gameplay.png)
 
 ## 🎮 Funcionalidades
 
